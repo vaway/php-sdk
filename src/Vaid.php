@@ -3,7 +3,7 @@ namespace VAWAY\Api;
 /**
  *  ------------------------------------------------------------------------
  *  
- *  Open Source CodeIgniter Vaid Library (ALL-IN-ONE).
+ *  Open Source Vaid Library (ALL-IN-ONE).
  *
  *  This library is based on a brand new PHP 7 to work with CodeIgniter 
  *  since version 3 and MongoDB since version 3.2. I have implemented the 
@@ -11,7 +11,7 @@ namespace VAWAY\Api;
  *  aggregate documents; execute commands.
  *  
  *  @author   SinhThanh <sinhthanh.dev@gmail.com>
- *  @since    14.10.2016
+ *  @since    02.08.2020
  *  @license  MIT License
  *  
  *  @version  1.1.0
@@ -19,7 +19,6 @@ namespace VAWAY\Api;
  *
  *  ------------------------------------------------------------------------
  *
- *  NOTE: I express my gratitude to Alexander (@link https://github.com/Alexter-progs) for the translation into English.
  *
  *  ------------------------------------------------------------------------
  */
@@ -65,7 +64,7 @@ class VAid
      *
      *  @param  array  $config  [Group name and config parameters]
      *  
-     *  @uses   $this->load->library('mongo_db', ['config' => ['connection_string' => 'localhost:27015']]);
+     *  @uses  
      */
     function __construct(array $config = [])
     {
@@ -260,6 +259,6 @@ class VAid
             "success" => false,
             "message" => $message
         ];
-        die(json_encdoe($error));
+        die(json_encode($error));
     }
 }
