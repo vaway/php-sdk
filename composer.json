@@ -7,7 +7,7 @@
             "email": "info@vaway.vn"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "require": {},
     "autoload": {
         "psr-4": {"VAWAY\\Api\\": "src/"}
