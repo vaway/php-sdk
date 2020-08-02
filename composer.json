@@ -1,0 +1,15 @@
+{
+    "name": "vaway/api",
+    "description": "Api for VAid",
+    "authors": [
+        {
+            "name": "VAWAY",
+            "email": "info@vaway.vn"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {"VAWAY\\Api\\": "src/"}
+    }
+}
